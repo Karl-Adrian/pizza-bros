@@ -20,12 +20,12 @@ This project is a website where one can choose, select and order types of variou
 
 ## BDD
 
-| Behaviour                      |           Input            |                                                                                 Output |
-| :----------------------------- | :------------------------: | -------------------------------------------------------------------------------------: |
-| Enter your name                |        Karl Adrian         |                                                                                        |
-| Select your preferred pizza    |          Hawaiian          |                                                                                        |
-| Choose your toppings and crust | extra cheese on thin crust |                                                                                        |
-| Press Order                    |                            | Pop up "Karl Adrian , we have received your message. Thank you for reaching out to us. |
+| Behaviour                      |           Input            |                                                                           Output |
+| :----------------------------- | :------------------------: | -------------------------------------------------------------------------------: |
+| Enter your name                |        Karl Adrian         |                                                                                  |
+| Select your preferred pizza    |          Hawaiian          |                                                                                  |
+| Choose your toppings and crust | extra cheese on thin crust |                                                                                  |
+| Press Order                    |                            | Pop up "Karl Adrian , we have received your message. Your order will arrive soon |
 
 ## Contact Information
 
