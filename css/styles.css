@@ -42,6 +42,7 @@ section {
   color: grey;
 }
 
+/*Buttons*/
 .btn {
   display: inline-block;
   padding: 0.8rem 3rem;
@@ -75,4 +76,19 @@ section {
 
 .btn:hover {
   color: #fff;
+}
+
+/*Header*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 2rem 9%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
