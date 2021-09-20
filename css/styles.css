@@ -311,6 +311,29 @@ header .navbar a:hover {
   background: var(--red);
 }
 
+.order {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: medium;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.order-overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 20px;
+  padding-left: 6%;
+}
+.choise {
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 /*FOOTER*/
 .footer {
   background: #000;
