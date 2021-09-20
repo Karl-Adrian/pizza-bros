@@ -224,7 +224,7 @@
 
           <div class="inputBox">
             <input type="number" placeholder="number" />
-            <input type="text" placeholder="Pizza type" />
+            <input type="text" placeholder="location" />
           </div>
 
           <textarea
@@ -234,10 +234,56 @@
             cols="30"
             rows="10"
           ></textarea>
-
-          <input type="submit" value="order now" class="btn" />
         </form>
       </div>
+      <div class="row">
+          <div class="col-sm-5">
+            <form action="">
+                <label for="select">Select Your Flavor</label>
+                <select class="browser-default custom-select custom-select-md mb-3 name">
+
+                  <!-- <option selected value="choose">Choose your flavor</option> -->
+                  <option value="Hawaiian">Hawaiian</option>
+                  <option value="BBQ Chicken">BBQ Chicken</option>
+                  <option value="Veggie Pizza">Veggie Pizza</option>
+                  <option value="Meat Pizza">Meat Pizza</option>
+                  <option value="BBQ Steak">Sunchoke Pizza</option>
+                  <option value="Buffalo Chicken Pizza">Buffalo Chicken Pizza</option>
+                  <option value="Pepperoni">Pepperoni</option>
+                  <option value="Cheese Pizza">Cheese Pizza</option>
+                </select>
+              <label for="select">Select Size</label>
+              <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                <option selected value="0">Select size here</option>
+                <option value="large">Large -- sh. 1200</option>
+                <option value="medium">Medium -- sh. 850</option>
+                <option value="small">Small -- sh. 600</option>
+              </select>
+              <label for="crust">Choose your favorite Crust!</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                    <option selected value="0">Select your preferred crust!</option>
+                  <option value="Crispy">Crispy -- sh. 200</option>
+                  <option value="Stuffed">Stuffed -- sh. 150</option>
+                  <option value="Gluten-free">Gluten-free-- sh. 180</option>
+                </select>
+              <label for="Toppings">Select Your Toppings at sh. 50 each</label><br>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Sausage" value="Sausage" name="toppings">
+                  <label class="custom-control-label" for="Sausage">Sausage</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Bacon" value="Bacon" name="toppings">
+                  <label class="custom-control-label" for="Bacon">Bacon</label>
+                </div>
+                <div class="custom-control custom-checkbox custom-control-inline">
+                  <input type="checkbox" class="custom-control-input" id="Mushrooms" value="Mushrooms" name="toppings">
+                  <label class="custom-control-label" for="Mushrooms">Mushrooms</label>
+                </div>
+                <br><br>
+              <button type="submit" class="btn btn-orange proceed">Order Now</button>
+              
+            </form>
+          </div>
     </section>
 
     <!--FOOTER-->
